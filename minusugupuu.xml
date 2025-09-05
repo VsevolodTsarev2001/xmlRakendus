@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--jada-->
+<inimene saasta="1964">
+	<nimi>Lidia</nimi>
+	<elukoht>Estonia, Tallinn</elukoht>
+	<lapsed>
+		<inimene saasta="1981">
+			<nimi>Julia</nimi>
+			<elukoht>Estonia, Tallinn</elukoht>
+			<lapsed>
+				<inimene saasta="2007">
+					<nimi>Seva</nimi>
+					<elukoht>Estonia, Tallinn</elukoht>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene saasta="1985">
+			<nimi>Ekaterina</nimi>
+			<elukoht>Soome, Helsingi</elukoht>
+			<lapsed>
+				<inimene saasta="2005">
+					<nimi>Sofia</nimi>
+					<elukoht>Soome, Helsingi</elukoht>
+				</inimene>
+				<inimene saasta="2022">
+					<nimi>Miroslava</nimi>
+					<elukoht>Soome, Helsingi</elukoht>
+				</inimene>
+				<inimene saasta="2024">
+					<nimi>Viktoria</nimi>
+					<elukoht>Soome, Helsingi</elukoht>
+				</inimene>
+			</lapsed>
+		</inimene>
+	</lapsed>
+</inimene>
