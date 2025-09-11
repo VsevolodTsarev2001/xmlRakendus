@@ -70,6 +70,8 @@
                 <th>Inimeste arv</th>
             </tr>
             <!-- Выбираем уникальные места жительства -->
+			<!--generate-id() funktsioon XSLT-s loob iga XML-sõlme jaoks unikaalse identifikaatori, mida kasutatakse näiteks korduvate elementide eristamiseks ja grupeerimiseks.-->
+			<!--key XSLT-s võimaldab luua indeksi, et kiiresti leida XML-sõlmi teatud väärtuse alusel, näiteks elemente, millel on kindel atribuut või alam-element.-->
             <xsl:for-each select="//inimene[generate-id() = generate-id(key('inimesed-elukoht', elukoht)[1])]">
                 <tr>
                     <td>
