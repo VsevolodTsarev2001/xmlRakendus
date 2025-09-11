@@ -4,40 +4,20 @@
 >
     <xsl:output method="xml" indent="yes"/>
 
-    <xsl:template match="/">
-		
-		<strong>Näitame kõik nimed </strong>
-		<ul>
-			<xsl:for-each select="//inimene">
-				<xsl:sort select ="@saasta" order="descending"/>
-				<!--descending - suuremast väiksemani-->
-				<!--ascending - väiksemast suuremani-->
-				<li>
-					<xsl:value-of select="nimi"/>
-					,
-					<xsl:value-of select="@saasta"/>
-					:
-					<i>
-						<xsl:value-of select="concat(nimi, ', ', @saasta, '.')"/>
-					</i>
-					, vanus:
-					<xsl:value-of select="2025-@saasta"/>
-					,
-					<xsl:value-of select="elukoht"/>
-				</li>
+    <!-- Ключ для группировки по месту жительства -->
+    <xsl:key name="inimesed-elukoht" match="inimene" use="elukoht"/>
 
-			</xsl:for-each>
-		</ul>
-		
+    <xsl:template match="/">
 		<strong>Kõik andmed tabelina</strong>
 		<table border="3">
 			<tr>
-				<th>Nimi</th>
-				<th>Laps</th>
+				<th>Vanemad</th>
+				<th>Nimed</th>
 				<th>Lapsevanema vanus</th>
 				<th>Sünniaasta</th>
 				<th>Vanus (2025)</th>
 				<th>Eluhoht</th>
+				<th>Laste arv</th>
 			</tr>
 			<xsl:for-each select="//inimene">
 				<xsl:sort select ="@saasta" order="descending"/>
@@ -59,9 +39,9 @@
 							</xsl:otherwise>
 						</xsl:choose>
 					</td>
+					
 					<td>
 						<xsl:value-of select="nimi"/>
-						
 					</td>
 					<td>
 						<xsl:value-of select="../../@saasta - @saasta"/>
@@ -70,15 +50,44 @@
 						<xsl:value-of select="@saasta"/>
 					</td>
 					<td>
-						<xsl:value-of select="2025-@saasta"/>
+						<xsl:value-of select="2025 - @saasta"/>
 					</td>
 					<td>
 						<xsl:value-of select="elukoht"/>
+					</td>
+					<td>
+						<xsl:value-of select="count(lapsed/inimene)"/>
 					</td>
 				</tr>
 
 			</xsl:for-each>
 		</table>
+		
+		<strong>Inimeste arv elukoha järgi:</strong>
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>Elukoht</th>
+                <th>Inimeste arv</th>
+            </tr>
+            <!-- Выбираем уникальные места жительства -->
+            <xsl:for-each select="//inimene[generate-id() = generate-id(key('inimesed-elukoht', elukoht)[1])]">
+                <tr>
+                    <td>
+                        <xsl:value-of select="elukoht"/>
+                    </td>
+                    <td>
+                        <xsl:value-of select="count(key('inimesed-elukoht', elukoht))"/>
+                    </td>
+                </tr>
+            </xsl:for-each>
+        </table>
+		
+		<br/>
+		<strong>Inimesed lähevad punaseks, kui nende nimes on e- või i-täht.</strong>
+		<br/>
+		<strong>Inimese rakk muutub kollaseks, kui tal on vähemalt kaks last.</strong>
+		<br/>
+
 		<strong>Minu oma ülesanne: Leia kõik inimesed, kellel on lapselapsed, ja kirjuta nende nimed koos lapselaste arvuga.</strong>
 		<table border="1" cellpadding="5">
 			<tr>
@@ -99,7 +108,11 @@
 					</tr>
 				</xsl:if>
 			</xsl:for-each>
-
 		</table>
+
+        <br/>
+
+        
+
     </xsl:template>
 </xsl:stylesheet>

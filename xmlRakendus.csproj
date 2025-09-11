@@ -119,11 +119,15 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Elizaveta2paring.xslt" />
+    <Content Include="Elizaveta2paring.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Elizaveta2sugupuu.xml" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="minusuguparing.xslt" />
+    <Content Include="minusuguparing.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="minusugupuu.xml" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
