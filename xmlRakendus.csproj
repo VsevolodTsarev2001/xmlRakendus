@@ -125,10 +125,14 @@
     <Content Include="Elizaveta2sugupuu.xml" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="MinuReis.xml" />
     <Content Include="minusuguparing.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="minusugupuu.xml" />
+    <Content Include="Reis.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />

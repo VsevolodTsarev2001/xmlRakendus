@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Reisid>
+	<Reis id="1" sihtkoht="Colombia" transport="takso">
+		<Kontakt>
+			<Nimi>Hagan Swaden</Nimi>
+			<Keel>Latin</Keel>
+			<Email>hswaden0@xing.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Al Ahsa Airport</Lennujaam>
+			<Hind>Zloty</Hind>
+			<Kestus>13</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="2" sihtkoht="France" transport="laev">
+		<Kontakt>
+			<Nimi>Silvana Allsopp</Nimi>
+			<Keel>Tamil</Keel>
+			<Email>sallsopp1@ihg.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Kiwai Airport</Lennujaam>
+			<Hind>Franc</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="3" sihtkoht="France" transport="jalgratas">
+		<Kontakt>
+			<Nimi>Anabelle Braemer</Nimi>
+			<Keel>Japanese</Keel>
+			<Email>abraemer2@cbslocal.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Tsewi Airport</Lennujaam>
+			<Hind>Rupiah</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="4" sihtkoht="USA" transport="buss">
+		<Kontakt>
+			<Nimi>Ricard Addionisio</Nimi>
+			<Keel>Latin</Keel>
+			<Email>raddionisio3@php.net</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>San Juan Aposento Airport</Lennujaam>
+			<Hind>Pound</Hind>
+			<Kestus>1</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="5" sihtkoht="Germany" transport="auto">
+		<Kontakt>
+			<Nimi>Pearce Glanders</Nimi>
+			<Keel>Maltese</Keel>
+			<Email>pglanders4@usgs.gov</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Telida Airport</Lennujaam>
+			<Hind>Zloty</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="6" sihtkoht="France" transport="takso">
+		<Kontakt>
+			<Nimi>Corette Hayzer</Nimi>
+			<Keel>Welsh</Keel>
+			<Email>chayzer5@cargocollective.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Harrison County Airport</Lennujaam>
+			<Hind>Zloty</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="7" sihtkoht="Australia" transport="mootorratas">
+		<Kontakt>
+			<Nimi>Karel Downham</Nimi>
+			<Keel>Cree</Keel>
+			<Email>kdownham6@cbsnews.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Aasiaat Airport</Lennujaam>
+			<Hind>Peso</Hind>
+			<Kestus>1</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="8" sihtkoht="Germany" transport="buss">
+		<Kontakt>
+			<Nimi>Bordy Walisiak</Nimi>
+			<Keel>Tajik</Keel>
+			<Email>bwalisiak7@stumbleupon.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>La Aurora Airport</Lennujaam>
+			<Hind>Quetzal</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="9" sihtkoht="China" transport="jalgratas">
+		<Kontakt>
+			<Nimi>Keefe Addicott</Nimi>
+			<Keel>Tsonga</Keel>
+			<Email>kaddicott8@booking.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Victoria Harbour Seaplane Base</Lennujaam>
+			<Hind>Rupiah</Hind>
+			<Kestus>4</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="10" sihtkoht="Austria" transport="buss">
+		<Kontakt>
+			<Nimi>Arly Fielding</Nimi>
+			<Keel>Inupiaq</Keel>
+			<Email>afielding9@npr.org</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Yari Airport</Lennujaam>
+			<Hind>Yuan Renminbi</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="11" sihtkoht="China" transport="jalgratas">
+		<Kontakt>
+			<Nimi>Cosmo Shipston</Nimi>
+			<Keel>Bokmål, Norwegian</Keel>
+			<Email>cshipstona@barnesandnoble.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Myitkyina Airport</Lennujaam>
+			<Hind>Franc</Hind>
+			<Kestus>5</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="12" sihtkoht="USA" transport="rong">
+		<Kontakt>
+			<Nimi>Ermin Lendrem</Nimi>
+			<Keel>Abkhazian</Keel>
+			<Email>elendremb@so-net.ne.jp</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Aviano Air Base</Lennujaam>
+			<Hind>Peso</Hind>
+			<Kestus>1</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="13" sihtkoht="Ethiopia" transport="takso">
+		<Kontakt>
+			<Nimi>Suzy O'Deoran</Nimi>
+			<Keel>Sardinian</Keel>
+			<Email>sodeoranc@ucsd.edu</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Ouvéa Airport</Lennujaam>
+			<Hind>Real</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="14" sihtkoht="USA" transport="rong">
+		<Kontakt>
+			<Nimi>Wilden Eslie</Nimi>
+			<Keel>Tsonga</Keel>
+			<Email>weslied@fda.gov</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Weerawila Airport</Lennujaam>
+			<Hind>Euro</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="15" sihtkoht="Japan" transport="jalgratas">
+		<Kontakt>
+			<Nimi>Dacia Ponten</Nimi>
+			<Keel>Sinhala</Keel>
+			<Email>dpontene@princeton.edu</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Arturo Michelena International Airport</Lennujaam>
+			<Hind>Peso</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="16" sihtkoht="USA" transport="takso">
+		<Kontakt>
+			<Nimi>Adelind Ianne</Nimi>
+			<Keel>Dzongkha</Keel>
+			<Email>aiannef@zdnet.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Kryvyi Rih International Airport</Lennujaam>
+			<Hind>Krona</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="17" sihtkoht="Chile" transport="lennuk">
+		<Kontakt>
+			<Nimi>Weider Tallow</Nimi>
+			<Keel>German</Keel>
+			<Email>wtallowg@sun.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Omsk Central Airport</Lennujaam>
+			<Hind>Shekel</Hind>
+			<Kestus>12</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="18" sihtkoht="Switzerland" transport="rong">
+		<Kontakt>
+			<Nimi>Roby Thunnercliffe</Nimi>
+			<Keel>Zhuang</Keel>
+			<Email>rthunnercliffeh@github.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Erigavo Airport</Lennujaam>
+			<Hind>Yuan Renminbi</Hind>
+			<Kestus>4</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="19" sihtkoht="France" transport="tramm">
+		<Kontakt>
+			<Nimi>Sibella Caldwell</Nimi>
+			<Keel>Kashmiri</Keel>
+			<Email>scaldwelli@toplist.cz</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Fort Dodge Regional Airport</Lennujaam>
+			<Hind>Ruble</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="20" sihtkoht="USA" transport="metroo">
+		<Kontakt>
+			<Nimi>Lavena Soares</Nimi>
+			<Keel>Thai</Keel>
+			<Email>lsoaresj@tinypic.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Natadola Airport</Lennujaam>
+			<Hind>Zloty</Hind>
+			<Kestus>1</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="21" sihtkoht="USA" transport="tramm">
+		<Kontakt>
+			<Nimi>Keenan Hanaby</Nimi>
+			<Keel>Tatar</Keel>
+			<Email>khanabyk@cam.ac.uk</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Glacier Park International Airport</Lennujaam>
+			<Hind>Baht</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="22" sihtkoht="France" transport="laev">
+		<Kontakt>
+			<Nimi>Bekki Gosland</Nimi>
+			<Keel>Tatar</Keel>
+			<Email>bgoslandl@livejournal.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Basankusu Airport</Lennujaam>
+			<Hind>Sol</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="23" sihtkoht="Japan" transport="auto">
+		<Kontakt>
+			<Nimi>Hussein Geipel</Nimi>
+			<Keel>Guarani</Keel>
+			<Email>hgeipelm@theglobeandmail.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Talagi Airport</Lennujaam>
+			<Hind>Ringgit</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="24" sihtkoht="Kenya" transport="metroo">
+		<Kontakt>
+			<Nimi>Helaine Tutchell</Nimi>
+			<Keel>Uighur</Keel>
+			<Email>htutchelln@cargocollective.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Jerusalem Airport</Lennujaam>
+			<Hind>Franc</Hind>
+			<Kestus>15</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="25" sihtkoht="South Africa" transport="buss">
+		<Kontakt>
+			<Nimi>Willem Horder</Nimi>
+			<Keel>Igbo</Keel>
+			<Email>whordero@tuttocitta.it</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Whitsunday Island Airport</Lennujaam>
+			<Hind>Euro</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="26" sihtkoht="USA" transport="tramm">
+		<Kontakt>
+			<Nimi>Oby Roser</Nimi>
+			<Keel>Arabic</Keel>
+			<Email>oroserp@sun.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Liège Airport</Lennujaam>
+			<Hind>Rupiah</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="27" sihtkoht="Singapore" transport="mootorratas">
+		<Kontakt>
+			<Nimi>Alex Ovell</Nimi>
+			<Keel>Nepali</Keel>
+			<Email>aovellq@redcross.org</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Ambunti Airport</Lennujaam>
+			<Hind>Krone</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="28" sihtkoht="Germany" transport="mootorratas">
+		<Kontakt>
+			<Nimi>Truman Quinnelly</Nimi>
+			<Keel>Bashkir</Keel>
+			<Email>tquinnellyr@weibo.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Andøya Airport</Lennujaam>
+			<Hind>Dinar</Hind>
+			<Kestus>4</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="29" sihtkoht="France" transport="lennuk">
+		<Kontakt>
+			<Nimi>Judah Carsberg</Nimi>
+			<Keel>Kanuri</Keel>
+			<Email>jcarsbergs@wired.com</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Earlton (Timiskaming Regional) Airport</Lennujaam>
+			<Hind>Krona</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+	<Reis id="30" sihtkoht="South Africa" transport="auto">
+		<Kontakt>
+			<Nimi>Cullan Braunthal</Nimi>
+			<Keel>Uighur</Keel>
+			<Email>cbraunthalt@themeforest.net</Email>
+		</Kontakt>
+		<Lennuinfo>
+			<Lennujaam>Flughafen München-Riem</Lennujaam>
+			<Hind>Euro</Hind>
+			<Kestus>3</Kestus>
+		</Lennuinfo>
+	</Reis>
+</Reisid>
